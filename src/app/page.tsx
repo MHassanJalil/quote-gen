@@ -59,7 +59,7 @@ import QuoteForm from '@/components/QuoteForm';
 import QuoteList from '@/components/QuoteList';
 import { quotes } from '@/data/quotes';
 import type { Quote } from '@/data/quotes';
-import { style } from 'framer-motion/client';
+//import { style } from 'framer-motion/client';
 
 export default function Home() {
   const [results, setResults] = useState<Quote[]>([]);
